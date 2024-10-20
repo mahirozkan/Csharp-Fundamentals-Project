@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SayıTahminOyunu", "SayıTahminOyunu\SayıTahminOyunu\SayıTahminOyunu.csproj", "{310FE781-4360-4494-8638-0A93859995EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HesapMakinesi", "HesapMakinesi\HesapMakinesi\HesapMakinesi.csproj", "{ED0B11E0-4234-4A00-A719-33E8C14C5AEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hesap Makinesi", "Hesap Makinesi", "{BE4E5525-4006-4BA6-9ED0-A2CD1665926D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sayı Tahmin Oyunu", "Sayı Tahmin Oyunu", "{3693D004-32E4-4DF5-994F-B5569D255CEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ortalama Hesaplama", "Ortalama Hesaplama", "{ECB4C90A-2E83-414B-80D5-F3FDCC9EC285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrtalamaHesaplama", "Ortalama Hesaplama\OrtalamaHesaplama\OrtalamaHesaplama.csproj", "{FDCF1D7C-BF49-46D8-830F-77C26FCA7808}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{310FE781-4360-4494-8638-0A93859995EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310FE781-4360-4494-8638-0A93859995EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310FE781-4360-4494-8638-0A93859995EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310FE781-4360-4494-8638-0A93859995EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0B11E0-4234-4A00-A719-33E8C14C5AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0B11E0-4234-4A00-A719-33E8C14C5AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0B11E0-4234-4A00-A719-33E8C14C5AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0B11E0-4234-4A00-A719-33E8C14C5AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCF1D7C-BF49-46D8-830F-77C26FCA7808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCF1D7C-BF49-46D8-830F-77C26FCA7808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCF1D7C-BF49-46D8-830F-77C26FCA7808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCF1D7C-BF49-46D8-830F-77C26FCA7808}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{310FE781-4360-4494-8638-0A93859995EE} = {3693D004-32E4-4DF5-994F-B5569D255CEC}
+		{ED0B11E0-4234-4A00-A719-33E8C14C5AEF} = {BE4E5525-4006-4BA6-9ED0-A2CD1665926D}
+		{FDCF1D7C-BF49-46D8-830F-77C26FCA7808} = {ECB4C90A-2E83-414B-80D5-F3FDCC9EC285}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {630A4602-503C-4BCA-B759-619692DE3F6A}
+	EndGlobalSection
+EndGlobal
